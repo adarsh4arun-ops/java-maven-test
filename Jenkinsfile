@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/adarsh4arun-ops/java-maven-test.git'
+                checkout scm
             }
         }
 
