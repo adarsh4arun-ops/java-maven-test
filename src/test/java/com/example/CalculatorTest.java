@@ -16,4 +16,8 @@ public class CalculatorTest {
     void testMultiplication() {
         assertEquals(6, calculator.multiply(2, 3));
     }
+    @Test
+    void testSubtraction() {
+        assertEquals(1, calculator.subtract(2,3));
+    }
 }
