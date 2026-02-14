@@ -1,1 +1,1 @@
-This shit is working
+This is working
